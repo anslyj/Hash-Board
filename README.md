@@ -9,11 +9,9 @@ Features
 
 Run (Maven)
 mvn -q compile
-GUI
 mvn -q exec:java -Dexec.mainClass=gui.HashGUI
-CLI
 mvn -q exec:java -Dexec.mainClass=applications.Driver \
-  -Dexec.args="-t chain -h d -s 17 -c src/main/resources/data/commands.txt"
+-Dexec.args="-t chain -h d -s 17 -c src/main/resources/data/commands.txt"
 
 Commands file (example)
 insert 42
